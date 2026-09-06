@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-    public class _012 {
+    public class EX12 {
         public static void main (String args []) {
             int anonascimento, anoatual, idade, idade17;
             anonascimento = Integer.parseInt(JOptionPane.showInputDialog("Digite o seu ano de nascimento: "));
