@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-    public class _013 {
+    public class EX13 {
         public static void main (String args []) {
             int alimentokg, dias;
             alimentokg = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de alimento em quilos: "));
