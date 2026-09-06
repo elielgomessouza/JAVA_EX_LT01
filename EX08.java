@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
             double deposito, rendimento, valorf;
             deposito = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do depósito: "));
             rendimento = deposito * 0.013;
-            valorf = rendimento;
+            valorf = deposito + rendimento;
             JOptionPane.showMessageDialog(null, "O valor final do investimento foi de: " + valorf);
     }
 }
