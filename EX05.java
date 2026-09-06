@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
             b = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do coeficiente B: "));
             c = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor do coeficiente C: "));
             delta = (int) Math.pow(b,2) - 4*a*c;
-            raiz1 = (-b + delta)/(2*a); 
+            raiz1 = (-b + (int) Math.sqrt(delta))/(2*a); 
             raiz2 = (-b - (int) Math.sqrt(delta))/(2*a);
             System.out.println("As duas raizes reais sao: " + raiz1 + raiz2);
         }
