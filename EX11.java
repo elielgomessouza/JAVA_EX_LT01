@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-    public class _011 {
+    public class EX11 {
         public static void main (String args []) {
             double raio, comprimento;
             raio = Double.parseDouble(JOptionPane.showInputDialog ("Digite o valor do raio da circunferência: "));
