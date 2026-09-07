@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
             y = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de Y: "));
             if (x>y)
                 z = x-y;
-            if (x<y)
+            else if (x<y)
                 z = y-x;
             else
                 z = x-y;
