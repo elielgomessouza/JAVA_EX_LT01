@@ -10,6 +10,5 @@ import javax.swing.JOptionPane;
                 JOptionPane.showMessageDialog(null, "O valor " + x + " é divísivel por 2");
             else if (x%3==0)
                 JOptionPane.showMessageDialog(null, "O valor " + x + " é divísivel por 3");
-            
         }
 }
